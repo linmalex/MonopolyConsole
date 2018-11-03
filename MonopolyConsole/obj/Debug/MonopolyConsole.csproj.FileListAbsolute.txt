@@ -1,0 +1,7 @@
+C:\Users\linma\source\repos\MonopolyConsole\MonopolyConsole\bin\Debug\MonopolyConsole.exe.config
+C:\Users\linma\source\repos\MonopolyConsole\MonopolyConsole\bin\Debug\MonopolyConsole.exe
+C:\Users\linma\source\repos\MonopolyConsole\MonopolyConsole\bin\Debug\MonopolyConsole.pdb
+C:\Users\linma\source\repos\MonopolyConsole\MonopolyConsole\obj\Debug\MonopolyConsole.csprojAssemblyReference.cache
+C:\Users\linma\source\repos\MonopolyConsole\MonopolyConsole\obj\Debug\MonopolyConsole.csproj.CoreCompileInputs.cache
+C:\Users\linma\source\repos\MonopolyConsole\MonopolyConsole\obj\Debug\MonopolyConsole.exe
+C:\Users\linma\source\repos\MonopolyConsole\MonopolyConsole\obj\Debug\MonopolyConsole.pdb
