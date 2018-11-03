@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using MonopolyConsole.ActionCards;
 using MonopolyConsole.PropertyCards;
+using MonopolyConsole.PropertyWildcards;
+using MonopolyConsole.RentCards;
 
 namespace MonopolyConsole.Models
 {
@@ -80,7 +82,50 @@ namespace MonopolyConsole.Models
                 new Yellow("Ventnor Ave"),
                 new Yellow("Marvin Gardens"),
                 new Yellow("Atlantic Ave"),
-
+                new BlueGreen(),
+                new BrownLightBlue(),
+                new TotalWild(),
+                new TotalWild(),
+                new OrangeMagenta(),
+                new OrangeMagenta(),
+                new GreenRailroad(),
+                new LightBlueRailroad(),
+                new RailroadUtility(),
+                new YellowRed(),
+                new YellowRed(),
+                new WildRent(),
+                new WildRent(),
+                new WildRent(),
+                new GreenDarkBlueRent(),
+                new GreenDarkBlueRent(),
+                new BrownLightBlueRent(),
+                new BrownLightBlueRent(),
+                new OrangeMagentaRent(),
+                new OrangeMagentaRent(),
+                new UtilityRailroadRent(),
+                new UtilityRailroadRent(),
+                new RedYellowRent(),
+                new RedYellowRent(),
+                new MoneyCard(10,"10 Million"),
+                new MoneyCard(1,"1 Million"),
+                new MoneyCard(1,"1 Million"),
+                new MoneyCard(1,"1 Million"),
+                new MoneyCard(1,"1 Million"),
+                new MoneyCard(1,"1 Million"),
+                new MoneyCard(1,"1 Million"),
+                new MoneyCard(2,"2 Million"),
+                new MoneyCard(2,"2 Million"),
+                new MoneyCard(2,"2 Million"),
+                new MoneyCard(2,"2 Million"),
+                new MoneyCard(2,"2 Million"),
+                new MoneyCard(3,"3 Million"),
+                new MoneyCard(3,"3 Million"),
+                new MoneyCard(3,"3 Million"),
+                new MoneyCard(4,"4 Million"),
+                new MoneyCard(4,"4 Million"),
+                new MoneyCard(4,"4 Million"),
+                new MoneyCard(5,"5 Million"),
+                new MoneyCard(5,"5 Million")
             };
         }
         

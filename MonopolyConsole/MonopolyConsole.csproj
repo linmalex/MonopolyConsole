@@ -58,6 +58,7 @@
     <Compile Include="Models\Discard.cs" />
     <Compile Include="Models\Deck.cs" />
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\MoneyCard.cs" />
     <Compile Include="PropertyCards\LightBlue.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Set.cs" />
@@ -73,6 +74,20 @@
     <Compile Include="PropertyCards\Red.cs" />
     <Compile Include="PropertyCards\Utility.cs" />
     <Compile Include="PropertyCards\Yellow.cs" />
+    <Compile Include="PropertyWildcards\BlueGreen.cs" />
+    <Compile Include="PropertyWildcards\BrownLightBlue.cs" />
+    <Compile Include="PropertyWildcards\GreenRailroad.cs" />
+    <Compile Include="PropertyWildcards\LightBlueRailroad.cs" />
+    <Compile Include="PropertyWildcards\OrangeMagenta.cs" />
+    <Compile Include="PropertyWildcards\RailroadUtility.cs" />
+    <Compile Include="PropertyWildcards\TotalWild.cs" />
+    <Compile Include="PropertyWildcards\YellowRed.cs" />
+    <Compile Include="RentCards\BrownLightBlueRent.cs" />
+    <Compile Include="RentCards\GreenDarkBlueRent.cs" />
+    <Compile Include="RentCards\OrangeMagentaRent.cs" />
+    <Compile Include="RentCards\RedYellowRent.cs" />
+    <Compile Include="RentCards\UtilityRailroadRent.cs" />
+    <Compile Include="RentCards\WildRent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
