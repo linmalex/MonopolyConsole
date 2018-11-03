@@ -12,11 +12,29 @@ namespace MonopolyConsole
     {
         private static void Main(string[] args)
         {
+            //get the deck
             Deck deck = new Deck();
-            foreach (Card card in deck.DeckCards)
+            deck = Deck.Shuffle(deck);
+
+            //add players
+            Console.WriteLine("How many players?");
+            int playerCount = Convert.ToInt32(Console.ReadLine());
+            List<Player> players = new List<Player>();
+            for (int i = 0; i < playerCount; i++)
             {
-                Console.WriteLine(card.Name);
+                Player newPlayer = new Player();
+                Console.WriteLine("Please enter player name");
+                newPlayer.Name = Console.ReadLine();
+                players.Add(newPlayer);
             }
+
+            foreach (Player player in players)
+            {
+                List<Card> playerHand = new List<Card>();
+                playerHand = Deck.Deal(deck);
+                player.Hand = playerHand;
+            }
+            
 
             Console.Read();
         }

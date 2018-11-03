@@ -12,12 +12,13 @@ namespace MonopolyConsole.Models
 {
     class Deck
     {
-        public List<Card> DeckCards { get; set; }
+        //properties
+        public List<Card> Cards { get; set; }
 
-
+        //constructor
         public Deck()
         {
-            DeckCards = new List<Card>()
+            Cards = new List<Card>()
             {
                 new DealBreaker(),
                 new DealBreaker(),
@@ -129,5 +130,33 @@ namespace MonopolyConsole.Models
             };
         }
         
+        public static Deck Shuffle(Deck unshuffledDeck){
+            List<Card> tempCards = new List<Card>();
+            Random random = new Random();
+
+            while (unshuffledDeck.Cards.Count > 0)
+            {
+                int randomIndex = random.Next(0,unshuffledDeck.Cards.Count); //creates a random number between 0 and the number of cards remaining in the original deck
+                tempCards.Add(unshuffledDeck.Cards[randomIndex]);
+                unshuffledDeck.Cards.RemoveAt(randomIndex); //removes the card at that index from the original deck
+            }
+
+           
+            Deck shuffledDeck = new Deck();
+            shuffledDeck.Cards = tempCards;
+            return shuffledDeck;
+        }
+
+        public static List<Card> Deal(Deck deck)
+        {
+            List<Card> hand = new List<Card>();
+            for (int i = 0; i < 5; i++)
+            {
+                hand.Add(deck.Cards[i]);
+                deck.Cards.RemoveAt(i);
+            }
+            return hand;
+        }
+
     }
 }

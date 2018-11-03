@@ -58,6 +58,7 @@
     <Compile Include="Models\Discard.cs" />
     <Compile Include="Models\Deck.cs" />
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Hand.cs" />
     <Compile Include="Models\MoneyCard.cs" />
     <Compile Include="PropertyCards\LightBlue.cs" />
     <Compile Include="Models\Player.cs" />

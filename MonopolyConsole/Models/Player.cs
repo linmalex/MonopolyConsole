@@ -9,6 +9,7 @@ namespace MonopolyConsole.Models
 {
     class Player
     {
+        public string Name { get; set; }
         public List<Card> Hand { get; set; }
         public List<Card> Table { get; set; }
         public List<Card> Bank { get; set; }
