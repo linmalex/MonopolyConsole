@@ -58,12 +58,21 @@
     <Compile Include="Models\Discard.cs" />
     <Compile Include="Models\Deck.cs" />
     <Compile Include="Models\Game.cs" />
+    <Compile Include="PropertyCards\LightBlue.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Set.cs" />
     <Compile Include="Models\Table.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropertyCards\Brown.cs" />
+    <Compile Include="PropertyCards\DarkBlue.cs" />
+    <Compile Include="PropertyCards\Green.cs" />
+    <Compile Include="PropertyCards\Magenta.cs" />
+    <Compile Include="PropertyCards\Orange.cs" />
+    <Compile Include="PropertyCards\Railroad.cs" />
+    <Compile Include="PropertyCards\Red.cs" />
+    <Compile Include="PropertyCards\Utility.cs" />
+    <Compile Include="PropertyCards\Yellow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
