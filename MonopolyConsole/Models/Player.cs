@@ -11,7 +11,7 @@ namespace MonopolyConsole.Models
     {
         public string Name { get; set; }
         public List<Card> Hand { get; set; }
-        public List<Card> Table { get; set; }
+        public Table Table { get; set; }
         public List<Card> Bank { get; set; }
 
         public void DepositToBank(Card card) { }

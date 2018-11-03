@@ -71,6 +71,7 @@
     <Compile Include="PropertyCards\Green.cs" />
     <Compile Include="PropertyCards\Magenta.cs" />
     <Compile Include="PropertyCards\Orange.cs" />
+    <Compile Include="PropertyCards\PropertyCard.cs" />
     <Compile Include="PropertyCards\Railroad.cs" />
     <Compile Include="PropertyCards\Red.cs" />
     <Compile Include="PropertyCards\Utility.cs" />

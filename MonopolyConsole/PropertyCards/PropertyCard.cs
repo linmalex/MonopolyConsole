@@ -7,12 +7,9 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.PropertyCards
 {
-    class Railroad: PropertyCard
+    class PropertyCard:Card
     {
-        public Railroad(string name)
-        {
-            Value = 2;
-            Name = name;
-        }
+        public bool CompleteStatus { get; set; }
+        public int CompleteCount { get; set; }
     }
 }

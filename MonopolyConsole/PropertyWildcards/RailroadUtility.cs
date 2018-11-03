@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.PropertyWildcards
 {
-    class RailroadUtility:Card
+    class RailroadUtility: PropertyCard
     {
         public RailroadUtility()
         {

@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.PropertyCards
 {
-    class Green:Card
+    class Green: PropertyCard
     {
         public Green(string name)
         {

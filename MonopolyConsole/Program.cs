@@ -28,13 +28,20 @@ namespace MonopolyConsole
                 players.Add(newPlayer);
             }
 
+            //deal hands to player
             foreach (Player player in players)
             {
                 List<Card> playerHand = new List<Card>();
                 playerHand = Deck.Deal(deck);
                 player.Hand = playerHand;
             }
-            
+
+            //set winning conditions
+            //game play ends when one player has three or more complete sets
+            int maxSets = new int();
+            foreach (Player player in players)
+            {
+            }
 
             Console.Read();
         }
