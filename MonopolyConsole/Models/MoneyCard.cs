@@ -14,5 +14,7 @@ namespace MonopolyConsole.Models
             Value = value;
             Name = name;
         }
+
+        
     }
 }

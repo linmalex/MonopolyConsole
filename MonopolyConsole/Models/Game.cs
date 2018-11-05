@@ -24,7 +24,7 @@ namespace MonopolyConsole.Models
             {
                 string cardName = player.Hand[i].Name;
                 int cardValue = player.Hand[i].Value;
-                Console.WriteLine("{0}) {1} {2} million dollars", (i + 1), cardName, cardValue);
+                Console.WriteLine("{0}) {1} ({2} million dollars)", (i + 1), cardName, cardValue);
             }
         }
     }
