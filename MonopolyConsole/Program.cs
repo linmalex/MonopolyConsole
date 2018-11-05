@@ -40,69 +40,18 @@ namespace MonopolyConsole
             //game play ends when one player has three or more complete sets
             List<Player> maxSets = players.Where(player => player.CompleteSetCount >= 3).ToList<Player>();
 
-            while (maxSets.Count()==0)
+            //PLAY GAME 
+            while (maxSets.Count() == 0)
             {
-                for (int i = 0; i < players.Count(); i++)
+                //define a player turn
+                for (int i = 0; i < playerCount; i++)
                 {
                     var activePlayer = players[i];
-                    activePlayer.DrawCard(deck,activePlayer.Hand);
-                    activePlayer.DrawCard(deck, activePlayer.Hand);
+                    Player.TakeTurn(activePlayer, deck, activePlayer.Hand);
                 }
             }
 
             Console.Read();
         }
     }
-
-
-    //2 deal breakers
-    //3 debt collectors (force 1 player to pay 5 mil)
-    //2 double the rent
-    //4 forced deal (swap a property)
-    //3 hotel cards
-    //3 house cards
-    //3 birthday cards
-    //3 just say no
-    //3 sly deal
-    //10 pass go (draw 2 extra)
-
-
-    //brown: baltic ave and mediterranean ave
-    //bold blue: boardwalk and park place
-    //dark green: north carolina ave, pacific ave, pennsylvania ave
-    //light blue: connecticut ave, oriental ave, vermont ave
-    //orange: new york ave, st. james place, tennesee ave
-    //magenta: st.charles place, virginia ave, states ave
-    //black: short line RR, B*O RR, Reading RR, Pennsylvania RR
-    //red: kentucky ave, indiana ave, illinois ave
-    //teal: water works, electric co
-    //yellow: ventor ave, marvin gardens, atlantic ave
-
-    //11 property wildcards:
-    //1 bold blue/ dark green
-    //1 light blue/brown
-    //2 pure wilds
-    //2 orange and magenta
-    //1 dark green and RR
-    //1 light blue and RR
-    //1 utilities and RR
-    //2 yellow and red
-
-    //3 wild rent
-    //2 dark green/blue
-    //2 brown/light blue
-    //2 magenta orange
-    //2 RR and utilities
-    //2 red yellow
-
-
-    //1 10 million
-    //2 5M
-    //3 4M
-    //3 3M
-    //5 2m
-    //6 1m
-
-
-
 }
