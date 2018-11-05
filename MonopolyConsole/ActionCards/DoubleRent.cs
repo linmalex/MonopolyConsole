@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class DoubleRent:Card
+    class DoubleRent : ActionCard
     {
         public DoubleRent()
         {

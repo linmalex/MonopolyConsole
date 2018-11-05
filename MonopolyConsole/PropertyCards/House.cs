@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MonopolyConsole.Models;
-using MonopolyConsole.PropertyCards;
 
-namespace MonopolyConsole.PropertyWildcards
+namespace MonopolyConsole.PropertyCards
 {
-    class YellowRed: PropertyCard
+    class House:PropertyCard
     {
-        public YellowRed()
+        public House()
         {
             Value = 3;
-            Name = "Yellow or Red";
+            Name = "House";
+            Description = "";
         }
     }
 }

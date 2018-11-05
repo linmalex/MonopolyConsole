@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class ItsMyBirthday:Card
+    class ItsMyBirthday: ActionCard
     {
         public ItsMyBirthday()
         {

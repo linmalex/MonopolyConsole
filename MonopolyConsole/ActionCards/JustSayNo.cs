@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class JustSayNo:Card
+    class JustSayNo: ActionCard
     {
         public JustSayNo()
         {

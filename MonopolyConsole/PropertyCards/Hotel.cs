@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using MonopolyConsole.Models;
 
-namespace MonopolyConsole.ActionCards
+namespace MonopolyConsole.PropertyCards
 {
-    class House:Card
+    class Hotel:PropertyCard
     {
-        public House()
+        public Hotel()
         {
-            Value = 3;
-            Name = "House";
+            Value = 4;
+            Name = "Hotel";
             Description = "";
         }
     }

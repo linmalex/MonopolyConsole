@@ -43,12 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionCards\ActionCard.cs" />
     <Compile Include="ActionCards\DealBreaker.cs" />
     <Compile Include="ActionCards\DebtCollector.cs" />
     <Compile Include="ActionCards\DoubleRent.cs" />
     <Compile Include="ActionCards\ForcedDeal.cs" />
-    <Compile Include="ActionCards\Hotel.cs" />
-    <Compile Include="ActionCards\House.cs" />
+    <Compile Include="PropertyCards\Hotel.cs" />
+    <Compile Include="PropertyCards\House.cs" />
     <Compile Include="ActionCards\ItsMyBirthday.cs" />
     <Compile Include="ActionCards\JustSayNo.cs" />
     <Compile Include="ActionCards\PassGo.cs" />

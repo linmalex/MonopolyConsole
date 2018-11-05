@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class DebtCollector:Card
+    class DebtCollector : ActionCard
     {
         public DebtCollector()
         {

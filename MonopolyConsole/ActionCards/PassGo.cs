@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class PassGo:Card
+    class PassGo: ActionCard
     {
         public PassGo()
         {

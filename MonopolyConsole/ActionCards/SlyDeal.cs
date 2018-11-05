@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class SlyDeal:Card
+    class SlyDeal : ActionCard
     {
         public SlyDeal()
         {

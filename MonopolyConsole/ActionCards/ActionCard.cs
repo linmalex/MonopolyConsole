@@ -7,13 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class Hotel:Card
+    class ActionCard:Card
     {
-        public Hotel()
-        {
-            Value = 4;
-            Name = "Hotel";
-            Description = "";
-        }
     }
 }

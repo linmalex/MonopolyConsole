@@ -7,7 +7,7 @@ using MonopolyConsole.Models;
 
 namespace MonopolyConsole.ActionCards
 {
-    class ForcedDeal:Card
+    class ForcedDeal : ActionCard
     {
         public ForcedDeal()
         {
