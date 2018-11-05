@@ -18,13 +18,16 @@ namespace MonopolyConsole
 
             //add players
             Console.WriteLine("How many players?");
-            int playerCount = Convert.ToInt32(Console.ReadLine());
+            //int playerCount = Convert.ToInt32(Console.ReadLine());
+            //PLACEHOLDER TO AVOID HAVING TO TYPE THIS IN EVERY TIME
+            int playerCount = 2;
             List<Player> players = new List<Player>();
             for (int i = 0; i < playerCount; i++)
             {
                 Player newPlayer = new Player();
                 Console.WriteLine("Please enter player name");
-                newPlayer.Name = Console.ReadLine();
+                //newPlayer.Name = Console.ReadLine();
+                newPlayer.Name = ("Player "+ i);
                 players.Add(newPlayer);
             }
 
