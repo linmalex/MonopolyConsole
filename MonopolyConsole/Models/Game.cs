@@ -20,9 +20,11 @@ namespace MonopolyConsole.Models
         public static void ShowHand(Player player)
         {
             Console.WriteLine("{0}, you have the following cards in your hand", player.Name);
-            foreach (Card card in player.Hand)
+            for (int i = 0; i < player.Hand.Count(); i++)
             {
-                Console.WriteLine(card.Name + " " + card.Value);
+                string cardName = player.Hand[i].Name;
+                int cardValue = player.Hand[i].Value;
+                Console.WriteLine("{0}) {1} {2} million dollars", (i + 1), cardName, cardValue);
             }
         }
     }
