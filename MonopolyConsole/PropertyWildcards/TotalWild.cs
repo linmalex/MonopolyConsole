@@ -13,7 +13,7 @@ namespace MonopolyConsole.PropertyWildcards
         public TotalWild()
         {
             Value = 0;
-            Name = "Total Wild";
+            Name = "Total Wild Card";
         }
     }
 }

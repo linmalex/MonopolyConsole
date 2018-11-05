@@ -13,7 +13,7 @@ namespace MonopolyConsole.PropertyWildcards
         public BlueGreen()
         {
             Value = 4;
-            Name = "Blue or Green";
+            Name = "Blue or Green Wild Card";
         }
     }
 }

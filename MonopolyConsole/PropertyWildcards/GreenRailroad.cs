@@ -13,7 +13,7 @@ namespace MonopolyConsole.PropertyWildcards
         public GreenRailroad()
         {
             Value = 4;
-            Name = "Green or Railroad";
+            Name = "Green or Railroad Wild Card";
         }
     }
 }
