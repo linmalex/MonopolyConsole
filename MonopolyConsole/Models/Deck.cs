@@ -141,9 +141,11 @@ namespace MonopolyConsole.Models
                 unshuffledDeck.Cards.RemoveAt(randomIndex); //removes the card at that index from the original deck
             }
 
-           
-            Deck shuffledDeck = new Deck();
-            shuffledDeck.Cards = tempCards;
+
+            Deck shuffledDeck = new Deck
+            {
+                Cards = tempCards
+            };
             return shuffledDeck;
         }
 

@@ -16,5 +16,14 @@ namespace MonopolyConsole.Models
         {
 
         }
+
+        public static void ShowHand(Player player)
+        {
+            Console.WriteLine("{0}, you have the following cards in your hand", player.Name);
+            foreach (Card card in player.Hand)
+            {
+                Console.WriteLine(card.Name + " " + card.Value);
+            }
+        }
     }
 }
